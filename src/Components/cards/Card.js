@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardTravel = () =>(
 
-    <div>inicial</div>
+ <div>iniciando primeira pagina</div>
 )
  
 
