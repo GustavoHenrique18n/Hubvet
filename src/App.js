@@ -1,13 +1,19 @@
 import React from 'react'
-import './App.css';
-import CardTravel from './Components/cards/Card'
+import './styles/reset.css';
+import CardSource from './Components/cards/CardSource'
+import MainBoard from './Components/board/MainBoard'
+import Button from './Components/buttons/button'
 
 const App = () => {
 
   return (
-    <div className="App">
-      <CardTravel/>
-    </div>
+    <>
+      <CardSource/>
+      <MainBoard/>
+      <div className = "button-homepage">
+      <Button/>
+      </div>
+    </>
   );
 }
 

@@ -1,0 +1,123 @@
+
+
+.mainBoard{
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+ }
+ 
+ .input-line{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-color: transparent;
+    appearance: none;
+    padding-top: 1px;
+    background-color: transparent;
+    border-bottom: 1px solid #D3D8DD;
+    outline: none;
+    color: #828282;
+    width: 100%;
+    cursor: pointer;
+}
+
+   select{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border-color: transparent;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: 1px solid #D3D8DD;
+    outline: none;
+    color: #828282;
+    padding-top: 3px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.label-amount{
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #909CA7;
+}
+ 
+.label-subtitles{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: #909CA7;
+}
+
+.toogle{
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px; 
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: -4px;
+}
+
+.toogle::before{
+  position: absolute;
+  content: '';
+  width: 49px;
+  height: 35px;
+  border-bottom: 1px solid #177c68;
+  border-top: 1px solid #177c68 ;
+  border-right:  1px solid #177c68;
+  border-radius: 0px 5px 4px 0px;; 
+  opacity: 0.5;
+  background-color: #7af8df;
+  box-sizing: border-box;
+  left: 50px;
+}
+ 
+.cifrao{
+position: relative;  
+left: 50px;
+top: 3px;
+  
+}
+.milhas{
+position: relative;  
+left: 17px;
+top: 1px;
+
+}
+
+.field-space{
+  width: 16%;
+}
+.field-space-tags{
+  width: 33%;
+}
+
+.toogle-position{
+  width: 11%;
+}
+
+.ticks{
+    width: 100%;
+}
+
+  
+ 
+ 
+ 
+ 
+
+
+ 
+
+ 
+    
+ 
+
+ 
+ 
