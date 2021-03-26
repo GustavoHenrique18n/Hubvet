@@ -5,6 +5,7 @@ section{
     justify-content: center;
     align-items: center;
     margin: 129px 0px 0px 0px;
+    
   }
   
   .input-Container{position: relative;}
@@ -33,11 +34,10 @@ section{
     transition: 500ms ease-in-out;
   }
   
-  .sla{position: relative}
-  .sla span{
-    top: 50px;
-    left: 27px;
+  .label-div{
+    margin-top: 32px;
   }
+ 
   .input-Container input::placeholder{
       color: #828282;
     }

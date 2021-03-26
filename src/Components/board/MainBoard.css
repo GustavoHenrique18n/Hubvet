@@ -2,12 +2,12 @@
 
 .mainBoard{
     display: flex;
-    margin-top: 32px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     
  }
+
  
  .input-line{
     font-family: 'Poppins', sans-serif;
@@ -37,6 +37,18 @@
     cursor: pointer;
     
 }
+
+.select-container{
+  position: relative;
+}
+.select-container::after{
+  position: absolute;
+  content: 'arrow_drop_down';
+  font-family:'Material Icons';
+  transform: translateX(-100%);
+  
+
+}
 .label-amount{
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
@@ -64,6 +76,7 @@
 }
 
 .toogle::before{
+
   position: absolute;
   content: '';
   width: 49px;
@@ -76,19 +89,49 @@
   background-color: #7af8df;
   box-sizing: border-box;
   left: 50px;
+
 }
+
+ 
  
 .cifrao{
 position: relative;  
 left: 50px;
 top: 3px;
-  
+cursor: pointer;
+
 }
 .milhas{
 position: relative;  
 left: 17px;
 top: 1px;
+cursor: pointer;
 
+}
+
+.milhas-active{
+  position: absolute;
+  width: 100px;
+  height: 36px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px; 
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: -4px;
+}
+.milhas-active::before{
+  position: absolute;
+  content: '';
+  width: 49px;
+  height: 35px;
+  border-bottom: 1px solid #177c68;
+  border-top: 1px solid #177c68 ;
+  border-left:  1px solid #177c68;
+  border-radius: 4px 0px 0px 5px;; 
+  opacity: 0.5;
+  background-color: #7af8df;
+  box-sizing: border-box;
+  
 }
 
 .field-space{

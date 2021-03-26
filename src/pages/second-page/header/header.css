@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid red;
+}
+
+.avatar{
+    
+    border-radius: 50%;
+}

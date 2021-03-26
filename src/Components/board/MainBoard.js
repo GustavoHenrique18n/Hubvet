@@ -1,7 +1,8 @@
 import React from 'react'
 import './MainBoard.css'
 
-const MainBoard = ({text}) =>{
+const MainBoard = ({ handleclick , toogle }) =>{
+
 
     return(
         
@@ -9,12 +10,14 @@ const MainBoard = ({text}) =>{
 
    <div className = "field-space">
       <label className="label-subtitles">Busque por:</label>
+      <div className = "select-container">
       <select>
-        <option></option>     
-        <option></option>     
-        <option></option>     
-        <option></option> 
+        <option>Passagem</option>     
+        <option>Carros</option>     
+        <option>Hoteis</option>     
+        <option>Pacotes</option> 
       </select>
+      </div>
    </div>
 
     <div className = "field-space">
@@ -25,7 +28,7 @@ const MainBoard = ({text}) =>{
  
 
     <div className = "toogle-position">
-      <label className = "toogle"></label>
+      <label className = {toogle ? 'milhas-active' : 'toogle'} onClick ={()=>handleclick(!toogle)}></label>
       <img className ="milhas" src= "/image/milhas.svg" alt="Logo empresa"/> 
       <img className ="cifrao" src= "/image/cifrao.svg" alt="Logo empresa"/>  
     </div>
@@ -33,8 +36,13 @@ const MainBoard = ({text}) =>{
 
     <div className = "field-space-tags">
       <label className="label-subtitles">Etiquetas</label>
-      <select className="ticks">     
+      <div className = "select-container">
+      <select className="ticks"> 
+        <option>Promoções</option>     
+        <option>Novos</option>     
+        <option>Ultimos dias</option>          
       </select>
+    </div>
     </div>
  
 </div>
