@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    color: #393E41;
+    bottom: 10px;
+}
+
+footer::after{
+    position: absolute;
+    content: 'favorite_border';
+    font-family:'Material Icons';
+    transform: translateX(50%);
+}

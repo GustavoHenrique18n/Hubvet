@@ -1,0 +1,63 @@
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 129px 0px 0px 0px;
+    
+  }
+  
+  .input-Container{position: relative;}
+  .input-Container label{
+    position: absolute;
+    font-weight: 500;
+    top: 50px;
+    left: 27px;
+  }
+  
+  .input-Container input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    width: 315px;
+    left: 512px;
+    background-color: #FFFFFF;
+    top: 327px;
+    bottom: 456px;
+    margin-top: 28px;
+    border-radius: 8px;
+    Height : 25px;
+    border: 1px solid #FFFFFF ;
+    outline: none;
+    padding: 21px 27px 21px 74px;
+    box-shadow: 0px 0px 1em #B4B2B2;
+    transition: 500ms ease-in-out;
+  }
+  
+  .label-div{
+    margin-top: 32px;
+  }
+ 
+  .input-Container input::placeholder{
+      color: #828282;
+    }
+    .input-Container input:hover{
+      border: 1px solid #B4B2B2;
+    }
+    .input-Container input:focus{
+      border : 1px solid #727272;
+    }
+    .input-Container input:focus::placeholder{
+      color: #4d4b4b;
+    }
+    .container-image-Hubvet{
+   margin-bottom: 2px;
+    }
+   .logo-Hubvet{
+     margin-bottom: 2px;
+   }
+    .image-Trip{
+      position: relative;
+      right:95px
+    }
+   

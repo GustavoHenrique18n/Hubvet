@@ -1,0 +1,35 @@
+.button-homepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button-pages{
+     
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color:#44BBA4 ;
+    width: 185px;
+    color: #FFFFFF ;
+    height: 38px;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 7px 54px;
+    cursor: pointer;
+    letter-spacing: 0.15px;
+    transition:.1s ease;
+     
+} 
+
+.button-pages:hover{
+  background-color:#37c5a9;
+  
+}
+
+  .button-pages:active{
+    transform: scale(0.9);
+    box-shadow: 0 2px 25px #44BBA4;
+  }
